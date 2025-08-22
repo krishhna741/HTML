@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_1</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="url" method="get"
+    accept-charset="UTF-8" autocomplete="off" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="first name" name="" id="fname">
+        <br/>
+        <label for="gname">Last Name</label>
+        <input type="text" placeholder="last name" name="" id="gname">
+        <br/>
+        <input type="password" name="" id="">
+        <br/>
+        <input type="week" name="" id="">
+        <br/>
+        <select name="editors" id="">
+            <option value="vscode">vscode</option>
+            <option value="notepad">notepad</option>
+        </select>
+        <br/>
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="notepad">notepad</option>
+        </datalist>
+        <br/>
+        <label for="hname"> choose your file from browser</label>
+        <input type="file" id="hname" name="">
+        <br/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
